@@ -26,7 +26,7 @@ Do not hard code your array names like "const teslaVehicles" - assume the vehicl
 ## Example
 Given : 
 ```javascript
-const cars = [
+const vehicles = [
   {"make":"Ford","model":"Fusion","year":2007,"vin":"9a11ff3c-7d9d-41bf-8b20-b8f26ebad785"},
   {"make":"Toyota","model":"Tundra","year":1986,"vin":"d81d10c5-504c-428c-b174-2209f7377c72"},
   {"make":"Ford","model":"Mustang","year":2000,"vin":"066ac424-60f8-46e6-bf77-a52314a5b919"},
