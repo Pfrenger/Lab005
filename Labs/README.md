@@ -8,7 +8,7 @@ There are many ways to solve this problem.  As an exercise in how people approac
 Pay very close attention to the requirements list to ensure you don't miss any details.  If you have any questions or if anything is unclear, please ask.
 
 1.  Create new arrays for each "Make" of vehicle.  
-    1.  Each new array should only contain vehicles of the same make and the array variable should be named appropriately (EG: const teslaVehicles)
+    1.  Each new array should only contain vehicles of the same make and the array variable should be named appropriately for the respective makes.
 2.  Order each new Make array by vehicle year in ascending order
 3.  Add recall details from the recallList to each vehicle (based on VIN)
 4.  Remove any vehicles that have a salvage title (based on VIN)
@@ -26,7 +26,7 @@ Do not hard code your array names like "const teslaVehicles" - assume the vehicl
 ## Example
 Given : 
 ```javascript
-const cars = [
+const vehicles = [
   {"make":"Ford","model":"Fusion","year":2007,"vin":"9a11ff3c-7d9d-41bf-8b20-b8f26ebad785"},
   {"make":"Toyota","model":"Tundra","year":1986,"vin":"d81d10c5-504c-428c-b174-2209f7377c72"},
   {"make":"Ford","model":"Mustang","year":2000,"vin":"066ac424-60f8-46e6-bf77-a52314a5b919"},
